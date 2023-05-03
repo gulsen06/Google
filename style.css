@@ -104,23 +104,23 @@ li button {
 }
 .footer {
   /* float: left; */
-  background-color: rgb(192, 188, 188);
+  background-color: rgb(247, 243, 243);
 }
 .footer-left {
   float: left;
-  width: 605px;
-  background-color: rgb(192, 188, 188);
+  width: 951px;
+  background-color: rgb(245, 242, 242);
 }
 .footer-right {
   float: right;
   text-align: right;
-  width: 610px;
-  background-color: rgb(192, 188, 188);
+  width: 952px;
+  background-color: rgb(247, 240, 240);
 }
 #canada {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  color: rgb(77, 75, 75);
-  border-bottom: 1px solid rgb(104, 102, 102);
+  background-color: rgb(244, 240, 240);
+  border-bottom: 1px solid lightgrey;
   padding: 10px;
 }
