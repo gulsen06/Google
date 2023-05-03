@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  /* border: 1px solid red; */
+  padding: 10px;
+  height: 50px;
+}
+.navbar-left {
+  /* border: 2px solid red; */
+  float: left;
+}
+.navbar-right {
+  /* border: 2px solid red; */
+  float: right;
+}
+li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: black;
+}
+a:hover {
+  cursor: pointer;
+}
+li button {
+  padding: 5px 10px;
+  background-color: rgb(61, 129, 231);
+  color: white;
+  border: none;
+}
+
+#icon {
+  opacity: 0.7;
+  width: "20px";
+  height: 30px;
+}
+.search img {
+  height: 20px;
+  margin-top: 10px;
+}
+
+.search {
+  height: 40px;
+  position: relative;
+  border: 1px solid lightslategray;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+#mic {
+  float: right;
+  padding-right: 15px;
+}
+.search input {
+  width: 300px;
+  height: 25px;
+  /* position: absolute; */
+  margin-top: 5px;
+  margin-left: 20px;
+  border: none;
+}
+#logo {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+#search-logo {
+  margin-left: 15px;
+}
+
+.buttons {
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+}
+#google-search,
+#lucky {
+  background-color: rgb(189, 187, 187);
+  color: rgb(99, 98, 98);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+#lucky {
+  margin-left: 10px;
+}
+.buttons p {
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.footer {
+  /* float: left; */
+}
+.footer-left {
+  float: left;
+}
+.footer-right {
+  float: right;
+}
+#canada {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: rgb(104, 102, 102);
+  border-bottom: 1px solid rgb(104, 102, 102);
+  padding: 10px;
+}
